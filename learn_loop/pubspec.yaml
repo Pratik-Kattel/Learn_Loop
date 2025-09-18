@@ -1,0 +1,43 @@
+name: learn_loop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider:
+  carousel_slider: ^5.1.1
+  google_fonts: ^6.1.0 # ✅ added for Poppins and other Google Fonts
+  http: ^1.4.0
+  flutter_secure_storage: ^8.0.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/App_Logo.png
+    - assets/images/slider_image_1.jpeg
+    - assets/images/slider_image_2.jpeg
+    - assets/images/slider_image_3.jpeg
+    - assets/images/slider_image_4.jpeg
+    - assets/images/learn.png
+    - assets/images/login_page.png
+    - assets/images/register.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/App_Logo.png"
